@@ -1,0 +1,8 @@
+<h1>Product Page</h1>
+
+<%= @product.name %>
+<%= @product.description %>
+<%= @product.image_url %>
+<%= @product.price %>
+<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_product_path(@product.id) %>
